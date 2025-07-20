@@ -59,3 +59,9 @@ width="400">
 <audio> is used for loading audio in the site
 
 the format is..
+
+<audio scr="song.mp3"
+controls>
+<source scr="the source">
+
+<video src=""></video> to load video
