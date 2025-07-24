@@ -62,6 +62,7 @@ the format is..
 
 <audio scr="song.mp3"
 controls>
-<source scr="the source">
+<source scr="the source"> this is used to have multiple source
 
 <video src=""></video> to load video
+<link rel="this is the relation" href=""> is used to link other source
