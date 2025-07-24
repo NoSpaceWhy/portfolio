@@ -76,3 +76,13 @@ this is used in head tags
 </ul>
  unordered list mkes bullets
  you make it nested also
+
+<ol> is used to make list with numbers
+
+
+## Tables
+
+<table> 
+    <tr> 
+    </tr>
+</table>
