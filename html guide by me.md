@@ -65,4 +65,14 @@ controls>
 <source scr="the source"> this is used to have multiple source
 
 <video src=""></video> to load video
-<link rel="this is the relation" href=""> is used to link other source
+<link rel="this is the relation" href=""> is used to link other source 
+this is used in head tags
+
+<span> and <div> are used for styling
+
+## Lists
+<ul>
+    <li>bullet</li>
+</ul>
+ unordered list mkes bullets
+ you make it nested also
