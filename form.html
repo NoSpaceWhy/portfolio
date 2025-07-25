@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback form</title>
-</head>
-<body>
-    
-    <h1 style="text-align: center;">Feedback form</h1>
+    <link rel="icon" href="media/face.png" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Feedback form</h1>
 
-    <form action="">
+    <form action="" method="post" style="max-width: 600px; margin: auto">
+        <!-- name of the user -->
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="Space"
+        /><br />
+        <!-- email of the user -->
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        placeholder="something@gmail.com"
+        /><br />
+        <!-- feedback of the user -->
+      <label for="feedback">Feedback:</label><br />
+      <textarea
+        id="feedback"
+        name="feedback"
+        rows="4"
+        minlength="3"
+        required
+        placeholder="Enter your feedback here"
+        ></textarea
+      ><br />
 
+      <button type="Reset">Reset</button>
+      <br />
+      <button type="submit">Submit</button>
     </form>
-
-</body>
+  </body>
 </html>
