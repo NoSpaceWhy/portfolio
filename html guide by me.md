@@ -95,3 +95,6 @@ this is used in head tags
 ## button
 
 <button  onclick="some_thing_function()" style="to style it"> click  me</button>
+or
+<button  onclick="location.href='form.html'" style="to style it"> click  me</button>
+this can be used for locating things near the index or main file 
