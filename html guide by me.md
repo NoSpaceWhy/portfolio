@@ -98,3 +98,17 @@ this is used in head tags
 or
 <button  onclick="location.href='form.html'" style="to style it"> click  me</button>
 this can be used for locating things near the index or main file 
+
+## form
+<form>
+
+<label for="This is used to link this to the input"> this is a label</label>
+<input type="this is to know the type it email"
+id="to connect to the label "
+name="idk">
+<textarea for a text place>
+</form>
+
+## header and footer and main
+these are used to categorized it 
+to make it easier for css  
