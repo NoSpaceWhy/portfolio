@@ -74,7 +74,7 @@ this is used in head tags
 <ul>
     <li>bullet</li>
 </ul>
- unordered list mkes bullets
+ unordered list makes bullets
  you make it nested also
 
 <ol> is used to make list with numbers
@@ -83,6 +83,15 @@ this is used in head tags
 ## Tables
 
 <table> 
-    <tr> 
+    <tr> row 
+        <th> this is a horizontal row heading</th>
+        <td> this is a horizontal row </td>
+
     </tr>
+    
 </table>
+
+
+## button
+
+<button  onclick="some_thing_function()" style="to style it"> click  me</button>
