@@ -1,5 +1,5 @@
 h1{
-    font-size: 60px;
+    font-size: 65px;
     color: #000000;
     text-align: center;
     margin-top: 20px;
@@ -12,4 +12,12 @@ h2{
 h3{
     font-size: 25px;
     margin-top: 20px;
+}
+/* 
+*This is my about me section CSS
+*/
+.AbtMe{ 
+    font-family: "google Sans", sans-serif;
+    font-size: 23px
+    
 }

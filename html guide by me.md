@@ -110,5 +110,18 @@ name="idk">
 </form>
 
 ## header and footer and main
+
 these are used to categorized it 
-to make it easier for css  
+to make it easier for css
+
+<head>
+<foot>
+
+
+# css
+
+## Color
+hsl
+rgb
+hex
+and name are the types of things we can denote color 
