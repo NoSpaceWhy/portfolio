@@ -1,7 +1,9 @@
 /* 
 * this is the css of the main sections of the website
 */
+
 body{
+    font-family: "Roboto","Arial",sans-serif;
     background-color: azure;
     margin: 0px;
 }
@@ -46,24 +48,16 @@ h3{
 /* 
 *This is my about me section CSS
 */
+#PFP{
+    width: 350px;
+    box-shadow: 5px 8px 10px rgb(143, 179, 200);
+    
+}
 .AbtMe{ 
     font-family: "google Sans", sans-serif;
     font-size: 25px;
     text-align: justify;
     margin: 20px;
-}
-#feedback-button{
-    text-align: center;
-    width: 100%;
-    font-size: 22px;
-    border-radius: 10px;
-    border-color: hwb(180 85% 0%);
-    margin-bottom: 50px;
-}
-#PFP{
-    width: 350px;
-    box-shadow: 5px 5px 10px rgb(143, 179, 200);
-    
 }
 #abt-meBox{
     width: 70%;
@@ -72,4 +66,18 @@ h3{
     box-shadow: 5px 5px 10px rgb(156, 196, 219);
     border-radius: 20px;
     
+}
+#proj-fin{
+    font-size: 22px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#feedback-button{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 10px;
+    border-color: hwb(180 85% 0%);
+    margin-bottom: 40px;
 }
