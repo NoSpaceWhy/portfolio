@@ -1,8 +1,14 @@
+body{
+    background-color: azure;
+    margin: 0px;
+}
 h1{
     font-size: 65px;
     color: #000000;
     text-align: center;
     margin-top: 20px;
+    text-shadow: 3px 3px 4px #e99898;
+
 }
 h2{
     font-size: 40px;
@@ -18,6 +24,36 @@ h3{
 */
 .AbtMe{ 
     font-family: "google Sans", sans-serif;
-    font-size: 23px
+    font-size: 25px;
+    text-align: justify;
+    margin: 20px;
+}
+footer{
+    
+    text-align: center; 
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ad8080;
+    border-radius: 50px;
+}
+#feedback-button{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    border-radius: 10px;
+    border-color: hwb(180 85% 0%);
+    margin-bottom: 50px;
+}
+#PFP{
+    width: 350px;
+    box-shadow: 5px 5px 10px rgb(143, 179, 200);
+    
+}
+#abt-meBox{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(218, 233, 247)  ;
+    box-shadow: 5px 5px 10px rgb(156, 196, 219);
+    border-radius: 20px;
     
 }
