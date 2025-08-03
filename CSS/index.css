@@ -1,7 +1,6 @@
 /* 
 * this is the css of the main sections of the website
 */
-
 body{
     font-family: "Roboto","Arial",sans-serif;
     background-color: azure;
@@ -69,7 +68,6 @@ h3{
     background-color: rgb(218, 233, 247)  ;
     box-shadow: 5px 5px 10px rgb(156, 196, 219);
     border-radius: 20px;
-    display: flow-root;
 }
 #proj-fin{
     font-size: 22px;
