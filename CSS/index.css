@@ -54,27 +54,29 @@ h3{
 #PFP{
     width: 350px;
     box-shadow: 5px 8px 10px rgb(143, 179, 200);
-    
+    border-radius: 10px;
 }
 .AbtMe{ 
     font-family: "google Sans", sans-serif;
     font-size: 25px;
+    padding: 30px;
+    padding-bottom: 0%;
     text-align: justify;
-    margin: auto;
 }
 #abt-meBox{
-    width: 70%;
-    height: 100%;
+    width: 1130px;
+    height: 22em;
     background-color: rgb(218, 233, 247)  ;
     box-shadow: 5px 5px 10px rgb(156, 196, 219);
     border-radius: 20px;
-    
+    display: flow-root;
 }
 #proj-fin{
     font-size: 22px;
     color: #000000;
     margin-top: 20px;
     margin-bottom: 20px;
+   
 }
 #contact{
     
