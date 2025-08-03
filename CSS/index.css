@@ -1,10 +1,16 @@
 /* 
 * this is the css of the main sections of the website
 */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+}
 body{
     font-family: "Roboto","Arial",sans-serif;
     background-color: azure;
     margin: 0px;
+    overflow: auto;
 }
 header{
     text-align: center
@@ -61,6 +67,7 @@ h3{
     padding: 30px;
     padding-bottom: 0%;
     text-align: justify;
+    
 }
 #abt-meBox{
     width: 1130px;
@@ -70,14 +77,21 @@ h3{
     border-radius: 20px;
 }
 #proj-fin{
+    width: auto;
+    height: auto;
+    background-color: rgb(202, 229, 254);
+    box-shadow: 5px 5px 10px rgb(156, 196, 219);
+    border-radius: 7px;
+    padding: 30px;
+    margin: 30px;
     font-size: 22px;
     color: #000000;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
+    text-align: center;
+    
    
 }
 #contact{
-    
     width: 100%;
     border-collapse: collapse;
 }
